@@ -21,9 +21,9 @@ export default function Post() {
           <button className="hover:text-green-700">New</button>
         </div>
         <div className="flex flex-col gap-2">
-          <h2 className="text-lg lg:text-xl">Loudest à la Madison #1 (L'integral)</h2>
+          <h2 className="text-lg lg:text-xl">Loudest à la Madison #1 (L&apos;integral)</h2>
           <p>
-            We focus on ergonomics and meeting you where you work. It's only a
+            We focus on ergonomics and meeting you where you work. It&apos;s only a
             keystroke away.
           </p>
           <div className="flex justify-between items-center text-xs md:text-[10px] lg:text-xs gap-x-2">
