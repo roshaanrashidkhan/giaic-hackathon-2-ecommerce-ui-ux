@@ -5,7 +5,7 @@ export default function EditorPick() {
   return (
     <section className="flex items-center justify-center my-20">
       <div className="w-[85%]">
-        <Heading headingLg="EDITOR'S PICK" headingSm="Problems trying to resolve the conflict between" />
+        <Heading headingLg="EDITOR&apos;S PICK" headingSm="Problems trying to resolve the conflict between" />
         <div className="grid grid-rows-3 grid-cols-1 md:grid-rows-1 md:grid-cols-[50%_25%_25%] gap-2 my-5">
           <CategoryImage src="/c-4.png" alt="category images" category="MEN" />
           <CategoryImage src="/c-2.png" alt="category images" category="WOMEN" />

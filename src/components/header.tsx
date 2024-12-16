@@ -80,8 +80,8 @@ export default function Header({visibility, setVisibility, pathname, bgColor}: P
             <div className="flex gap-3 items-center">
               {(pathname.length <= 1 || pathname === '/') && (<><BsSearch size={20}  />
               <FiShoppingCart size={20} /></>)}
-              <LuMenu className={!visibility ? `block` : "hidden"} size={30} onClick={(e) => setVisibility(!visibility)} />
-              <TbMenuDeep className={visibility ? `block` : "hidden"} size={30} onClick={(e) => setVisibility(!visibility)} />
+              <LuMenu className={!visibility ? `block` : "hidden"} size={30} onClick={() => setVisibility(!visibility)} />
+              <TbMenuDeep className={visibility ? `block` : "hidden"} size={30} onClick={() => setVisibility(!visibility)} />
             </div>
           </div>
         </div>
