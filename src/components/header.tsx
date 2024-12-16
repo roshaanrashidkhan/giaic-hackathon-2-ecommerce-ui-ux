@@ -9,7 +9,7 @@ import { LuMenu } from "react-icons/lu";
 
 interface Props {
   visibility: boolean;
-  setVisibility: (param: Boolean) => void;
+  setVisibility: React.Dispatch<React.SetStateAction<boolean>>;
   pathname: string;
   bgColor: string;
 }
