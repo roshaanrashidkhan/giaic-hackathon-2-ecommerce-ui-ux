@@ -17,7 +17,7 @@ export default function BigCompanies() {
             }
           />
         </div>
-        <div className="flex flex-col md:flex-row justify-between items-center gap-5 my-16">
+        <div className="flex flex-col md:flex-row justify-between items-center gap-5 mt-16">
           <Image src="/logo.png" width={103} height={100} alt="Logo" />
           <Image src="/logo.png" width={103} height={100} alt="Logo" />
           <Image src="/logo.png" width={103} height={100} alt="Logo" />
