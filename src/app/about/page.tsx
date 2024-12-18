@@ -1,9 +1,14 @@
 "use client"
 
+import BigCompanies from "@/components/companies-section";
 import HeroSection from "@/components/hero-section";
 import NavMenu from "@/components/nav-menu";
+import OurTeam from "@/components/our-team";
+import OurUsers from "@/components/our-users-section";
+import ProblemSection from "@/components/problem-section";
 import SecondaryHeader from "@/components/secondary-header";
 import { Button } from "@/components/ui/button";
+import VideoSection from "@/components/video-section";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
 
@@ -18,7 +23,7 @@ export default function About() {
         <HeroSection
           width={350}
           height={100}
-          textCSS="text-black"
+          textCSS="text-[#252B42]"
           src="/about-image.png"
           alt="Image"
           firstHeading="ABOUT COMPANY"
@@ -37,6 +42,11 @@ export default function About() {
           }
           paraCSS="text-xl text-center sm:text-left text-gray-500"
         />
+        <ProblemSection />
+        <OurUsers />
+        <VideoSection />
+        <OurTeam />
+        <BigCompanies />
       </main>
     </>
   );

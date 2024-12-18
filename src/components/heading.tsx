@@ -18,7 +18,7 @@ export default function Heading({
       <h3
         className={
           headingLgCSS +
-          " text-lg md:text-2xl font-bold text-center uppercase tracking-[0.1px]"
+          " text-lg md:text-2xl font-bold text-center tracking-[0.1px]"
         }
       >
         {headingLg}

@@ -22,10 +22,11 @@ export default function HeroSection({css, firstHeading, secondHeading, para, jsx
                 <div className={textCSS + " flex flex-col sm:justify-start sm:text-left text-center justify-center gap-8 w-full sm:w-[70%]"}>
                     <h6 className="font-bold text-base uppercase">{firstHeading}</h6>
                     <h3 className="font-bold text-4xl md:text-6xl">{secondHeading}</h3>
+
                     <p className={paraCSS}>{para}</p>
                     <div className="flex sm:block items-center justify-center">{jsxElement}</div>
                 </div>
-                {src.length > 0 && <Image className="self-end -mb-10 w-full sm:w-[60%]" src={src} width={width} height={height} alt={alt} />}
+                {src.length > 0 && <Image className="self-end -mb-10 w-full sm:w-[60%]" quality={100} src={src} width={width} height={height} alt={alt} />}
             </div>
         </section>
     );
