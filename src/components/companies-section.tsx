@@ -7,7 +7,7 @@ export default function BigCompanies() {
       <div className="w-[85%]">
         <div className="flex flex-col gap-4 justify-center w-full">
           <Heading
-            headingLgCSS="!text-[40px] text-[#252B42]"
+            headingLgCSS="!text-[40px] text-[#252B42] leading-10"
             headingLg="Big Companies Are Here"
             headingSm={
               <>
@@ -17,7 +17,7 @@ export default function BigCompanies() {
             }
           />
         </div>
-        <div className="flex flex-col md:flex-row justify-between items-center gap-5 mt-16">
+        <div className="flex flex-col md:flex-row justify-between items-center gap-y-10 gap-x-5 mt-16">
           <Image src="/logo.png" width={103} height={100} alt="Logo" />
           <Image src="/logo.png" width={103} height={100} alt="Logo" />
           <Image src="/logo.png" width={103} height={100} alt="Logo" />

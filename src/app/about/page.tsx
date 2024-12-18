@@ -28,8 +28,9 @@ export default function About() {
         setVisibility={setVisibility}
       />
       <main className="w-full">
-        {visibility && <NavMenu pathname={pathname} />}
+        {visibility && <NavMenu pathname={pathname} parentCSS="bg-[#F6F6F6]" />}
         <HeroSection
+          firstHeadCSS="hidden md:block"
           width={350}
           height={100}
           textCSS="text-[#252B42]"
