@@ -24,13 +24,15 @@ const buttonVariants = cva(
         ghost: "hover:bg-accent hover:text-accent-foreground",
         link: "text-primary underline-offset-4 hover:underline",
         green: "text-white bg-[#2DC071] hover:bg-green-600",
-        blue: "text-white bg-[#23A6F0] hover:bg-[#1A96DB]"
+        blue: "text-white bg-[#23A6F0] hover:bg-[#1A96DB]",
+        navyBlue: "text-white bg-[#252B42] hover:opacity-90"
       },
       size: {
         default: "h-9 px-4 py-2",
         sm: "h-8 rounded-md px-3 text-xs",
         md: "h-10 rounded-md px-8",
-        lg: "h-14 rounded-md px-8",
+        lg: "h-14 rounded-md px-8 font-bold text-sm",
+        full: "w-full h-12 rounded-md text-sm font-bold",
         icon: "h-9 w-9",
       },
     },

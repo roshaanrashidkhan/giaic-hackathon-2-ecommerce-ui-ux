@@ -62,6 +62,7 @@ export default function About() {
       <Footer
         footerHeading={
           <FooterHeading
+            css="justify-start"
             heading="Bandage"
             content={
               <>
@@ -70,7 +71,6 @@ export default function About() {
                 <FaXTwitter />
               </>
             }
-            parentCSS="!bg-white shadow-sm"
           />
         }
       />
