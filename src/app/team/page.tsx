@@ -4,7 +4,6 @@ import Footer from "@/components/footer";
 import FooterHeading from "@/components/footerHeading";
 import GridTeamPage from "@/components/grid-team";
 import NavMenu from "@/components/nav-menu";
-import OurTeam from "@/components/our-team";
 import SecondaryHeader from "@/components/secondary-header";
 import SecondaryHeroSection from "@/components/secondary-hero-section";
 import TrialSection from "@/components/trial-section";
