@@ -51,9 +51,9 @@ export default function Header({visibility, setVisibility, pathname, bgColor}: P
               <Link href="/">Home</Link>
               <Link href="/shop">Shop</Link>
               <Link href="/about">About</Link>
-              <Link href="/blog">Blog</Link>
+              <Link href="/team">Team</Link>
               <Link href="/contact">Contact</Link>
-              <Link href="/">Pages</Link>
+              <Link href="/pricing">Pricing</Link>
             </div>
             <div className="flex md:gap-3 lg:gap-6 items-center justify-self-end text-[#23A6F0]">
               <div className="flex items-center gap-2 md:text-xs lg:text-sm font-bold">
