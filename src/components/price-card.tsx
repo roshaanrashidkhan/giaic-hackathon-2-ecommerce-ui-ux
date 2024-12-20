@@ -1,5 +1,4 @@
 import { ReactNode } from "react";
-import UnorderedItem from "./unordered-item";
 
 interface Props {
     packageType: string;
