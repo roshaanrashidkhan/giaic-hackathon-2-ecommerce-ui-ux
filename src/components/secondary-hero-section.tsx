@@ -18,7 +18,7 @@ export default function SecondaryHeroSection({lgHeading, smHeading, linkName, hr
         <section className="w-full flex items-center justify-center my-20">
             <div className="w-[85%] flex flex-col items-center justify-center text-center font-bold gap-10">
                 <h6 className="text-[#737373]">{smHeading}</h6>
-                <h1 className="text-6xl text-[#252B42]">{lgHeading}</h1>
+                <h1 className="text-[40px] md:text-6xl text-[#252B42]">{lgHeading}</h1>
                 <Breadcrumb>
                 <BreadcrumbList>
                   <BreadcrumbItem>

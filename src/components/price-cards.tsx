@@ -13,7 +13,7 @@ export default function PriceCards() {
           <Heading
             headingSm={
               <>
-                Problems trying to resolve the conflict between<br></br>
+                Problems trying to resolve the conflict between<br className="hidden md:block"></br>
                 the two major realms of Classical physics: Newtonian mechanics
               </>
             }
@@ -29,7 +29,7 @@ export default function PriceCards() {
             Save 25%
           </h6>
         </div>
-        <div className="w-full grid grid-cols-3 items-end my-20 gap-1">
+        <div className="w-full grid grid-rows-1 md:grid-cols-2 lg:grid-cols-3 items-end my-20 gap-y-3 gap-x-1">
           <PriceCard
             css="border-[#23A6F0]"
             submitButton={
@@ -56,7 +56,7 @@ export default function PriceCards() {
             time="Per Month"
           />
           <PriceCard
-            css="min-h-[110%] border-[#23A6F0] text-white bg-[#252B42]"
+            css="md:min-h-[110%] border-[#23A6F0] text-white bg-[#252B42]"
             submitButton={
               <Button variant="blue" size="full">
                 Try for free
@@ -108,7 +108,7 @@ export default function PriceCards() {
         </div>
         <div className="w-full flex flex-col justify-center items-center gap-10">
             <h4 className="text-xl text-[#252B42] text-center">Trusted By Over 4000 Big Companies</h4>
-            <div className="w-full flex flex-col md:flex-row justify-between items-center gap-5">
+            <div className="w-full flex flex-col md:flex-row justify-between items-center gap-y-10 gap-x-5">
                 <Image src="/logo.png" width={103} height={100} alt="Logo" />
                 <Image src="/logo.png" width={103} height={100} alt="Logo" />
                 <Image src="/logo.png" width={103} height={100} alt="Logo" />

@@ -11,12 +11,12 @@ export default function TrialSection() {
         <Heading
           headingSm={
             <>
-              Met minim Mollie non desert Alamo est sit cliquey dolor<br></br>
+              Met minim Mollie non desert Alamo est sit cliquey dolor<br className="hidden md:block"></br>
               do met sent. RELIT official consequent.
             </>
           }
           headingLg="Start your 14 days free trial"
-          headingLgCSS="!text-[40px] text-[#252B42]"
+          headingLgCSS="!text-[40px] text-[#252B42] leading-[3rem]"
         />
         <Button variant="blue" size="lg">
           Try it free now

@@ -15,7 +15,7 @@ export default function PricingFaqs() {
             headingSmCSS="!text-xl"
             headingSm={
               <>
-                Problems trying to resolve the conflict between<br></br>
+                Problems trying to resolve the conflict between<br className="hidden md:block"></br>
                 the two major realms of Classical physics: Newtonian mechanics
               </>
             }
@@ -24,7 +24,7 @@ export default function PricingFaqs() {
           />
         </div>
         <Accordion type="single" collapsible className="w-full">
-          <div className="grid grid-cols-2 gap-x-3">
+          <div className="grid grid-rows-1 md:grid-cols-2 gap-x-3">
             <div className="justify-items-center">
               <AccordionItem value="item-1" className="justify-items-center">
                 <AccordionTrigger>
