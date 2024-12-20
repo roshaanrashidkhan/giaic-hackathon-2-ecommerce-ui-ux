@@ -25,7 +25,7 @@ export default function SecondaryHeader({
           <h2 className="font-bold text-2xl">Bandage</h2>
           <div className="flex md:gap-2 lg:gap-5 items-center text-gray-500 font-bold md:text-xs lg:text-sm tracking-wider">
             <Link href="/">Home</Link>
-            <Link href="/product">Product</Link>
+            <Link href="/shop">Shop</Link>
             <Link href="/pricing">Pricing</Link>
             <Link href="/contact">Contact</Link>
           </div>
