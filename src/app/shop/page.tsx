@@ -66,13 +66,14 @@ export default function Shop() {
         />
         <CategoryList />
         <FilterSection />
-        <ClientsList />
         <FeatureSection />
         <PaginationSection />
+        <ClientsList />
       </main>
       <Footer
         footerHeading={
           <FooterHeading
+          parentCSS="bg-white shadow-sm"
           css="justify-start"
             heading="Bandage"
             content={
