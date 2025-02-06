@@ -4,6 +4,7 @@ import DynamicProduct from "@/components/dynamic-product";
 import FooterHeading from "@/components/footerHeading";
 import Header from "@/components/header";
 import NavMenu from "@/components/nav-menu";
+import TabsComponent from "@/components/tabs";
 import { Breadcrumb, BreadcrumbItem, BreadcrumbLink, BreadcrumbList, BreadcrumbSeparator } from "@/components/ui/breadcrumb";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
@@ -52,6 +53,7 @@ export default function Product() {
           }
         />
         <DynamicProduct />
+        <TabsComponent />
       </main>
     </>
   );
